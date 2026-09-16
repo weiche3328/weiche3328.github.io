@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="徐偉哲的個人網站，整理 CI001 課程作業與學習紀錄。">
+  <title>徐偉哲｜個人網站</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f3f7f6;
+      color: #243c36;
+      font-family: system-ui, -apple-system, "Microsoft JhengHei", sans-serif;
+      line-height: 1.8;
+    }
+    main { width: min(100% - 40px, 760px); margin: 64px auto; }
+    header { margin-bottom: 32px; }
+    .eyebrow { color: #46675b; font-size: 14px; letter-spacing: 0.12em; }
+    h1 { margin: 8px 0 16px; font-size: clamp(32px, 6vw, 48px); line-height: 1.3; }
+    h2 { margin: 0 0 16px; font-size: 22px; }
+    p { margin: 0 0 12px; }
+    section {
+      padding: 28px;
+      margin-bottom: 20px;
+      background: #fff;
+      border: 1px solid #dce7e1;
+      border-radius: 16px;
+    }
+    dl { margin: 0; }
+    dt { margin-top: 12px; font-weight: 700; }
+    dt:first-child { margin-top: 0; }
+    dd { margin: 0; overflow-wrap: anywhere; }
+    a { color: #16634c; text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:hover { color: #103e31; }
+    a:focus-visible { outline: 3px solid #16634c; outline-offset: 4px; }
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      background: #16634c;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .button:hover { background: #103e31; color: #fff; }
+    footer { margin-top: 28px; color: #52685f; font-size: 14px; }
+    @media (max-width: 480px) {
+      main { margin: 32px auto; }
+      section { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+      <h1>你好，我是徐偉哲。</h1>
+      <p>歡迎來到我的個人網站。這裡整理 CI001 課程的作業與學習紀錄。</p>
+    </header>
+
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">關於我</h2>
+      <dl>
+        <dt>姓名</dt>
+        <dd>徐偉哲</dd>
+        <dt>學號</dt>
+        <dd>1111456</dd>
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/weiche3328">@weiche3328</a></dd>
+        <dt>電子郵件</dt>
+        <dd><a href="mailto:s1111456@mail.yzu.edu.tw">s1111456@mail.yzu.edu.tw</a></dd>
+      </dl>
+    </section>
+
+    <section aria-labelledby="course-heading">
+      <h2 id="course-heading">課程與作業</h2>
+      <p><strong>11501_CI001 — C++ Programming Laboratory (I)</strong></p>
+      <p>課程儲存庫收錄作業檔案、專案與說明文件。</p>
+      <a class="button" href="https://github.com/weiche3328/11501_CI001">查看課程儲存庫</a>
+    </section>
+
+    <section aria-labelledby="site-heading">
+      <h2 id="site-heading">關於這個網站</h2>
+      <p>這個網站是 CI001 第一次作業的一部分，練習使用 Git、GitHub 與 Markdown，並透過 GitHub Pages 發布個人網站。</p>
+    </section>
+
+    <footer>徐偉哲 · CI001 個人網站</footer>
+  </main>
+</body>
+</html>
